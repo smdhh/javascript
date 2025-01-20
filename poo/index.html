@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard des Afficheurs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .afficheur {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestion des Afficheurs</h1>
+
+    <form id="afficheurForm">
+        <input type="number" id="id" placeholder="ID" required>
+        <input type="text" id="nom" placeholder="Nom" required>
+        <input type="text" id="localite" placeholder="Localité" required>
+        <input type="text" id="message" placeholder="Message" required>
+        <button type="submit">Ajouter Afficheur</button>
+    </form>
+
+    <h2>Liste des Afficheurs</h2>
+    <div id="afficheurList"></div>
+
+    <script src="poo1tp2.js"></script>
+</body>
+</html>
